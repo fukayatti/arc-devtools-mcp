@@ -55,8 +55,8 @@ importers:
         specifier: ^8.43.0
         version: 8.51.0(eslint@9.39.2)(typescript@5.9.3)
       chrome-devtools-frontend:
-        specifier: 1.0.1555430
-        version: 1.0.1555430
+        specifier: 1.0.1563377
+        version: 1.0.1563377
       core-js:
         specifier: 3.47.0
         version: 3.47.0
@@ -744,8 +744,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chrome-devtools-frontend@1.0.1555430:
-    resolution: {integrity: sha512-pNPsDEHpqbUDPx4xwNFrLP44fpavPvtdHh91t1DyC3uIsbpJupXzz/rnJA2U2PZXc8SUfK6/UhndqpXCntNh5A==}
+  chrome-devtools-frontend@1.0.1563377:
+    resolution: {integrity: sha512-aVa9GhHhC3KUAfjus95WDBNULWQL98n57VejgYnSkJKT8u0bxjnMb8K+HRsH3jpwQp8IVcL8xSeAE/3dzB/6vw==}
 
   chromium-bidi@11.0.0:
     resolution: {integrity: sha512-cM3DI+OOb89T3wO8cpPSro80Q9eKYJ7hGVXoGS3GkDPxnYSqiv+6xwpIf6XERyJ9Tdsl09hmNmY94BkgZdVekw==}
@@ -2756,7 +2756,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chrome-devtools-frontend@1.0.1555430: {}
+  chrome-devtools-frontend@1.0.1563377: {}
 
   chromium-bidi@11.0.0(devtools-protocol@0.0.1534754):
     dependencies:
