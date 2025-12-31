@@ -1,5 +1,5 @@
 {
-  "name": "@fukayatti/arc-devtools-mcp",
+  "name": "@fukayatti0/arc-devtools-mcp",
   "version": "1.0.0",
   "description": "MCP server for Chrome DevTools",
   "type": "module",
@@ -32,7 +32,7 @@
     "!*.tsbuildinfo"
   ],
   "repository": "fukayatti/arc-devtools-mcp",
-  "author": "fukayatti",
+  "author": "fukayatti0",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/fukayatti/arc-devtools-mcp/issues"

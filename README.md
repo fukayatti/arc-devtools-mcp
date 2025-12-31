@@ -50,7 +50,7 @@ Add the following to your MCP configuration file (e.g., `~/Library/Application S
   "mcpServers": {
     "arc-devtools": {
       "command": "npx",
-      "args": ["-y", "@fukayatti/arc-devtools-mcp"]
+      "args": ["-y", "@fukayatti0/arc-devtools-mcp"]
     }
   }
 }
@@ -59,7 +59,7 @@ Add the following to your MCP configuration file (e.g., `~/Library/Application S
 Or run via docker:
 
 ```bash
-npx -y @fukayatti/arc-devtools-mcp
+npx -y @fukayatti0/arc-devtools-mcp
 ```
 
 ### Manual Configuration (Local Build)
