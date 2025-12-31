@@ -49,15 +49,22 @@ Add the following to your MCP configuration file (e.g., `~/Library/Application S
 {
   "mcpServers": {
     "arc-devtools": {
-      "command": "node",
-      "args": [
-        "/absolute/path/to/arc-devtools-mcp/build/src/index.js",
-        "--browser-url=http://127.0.0.1:9222"
-      ]
+      "command": "npx",
+      "args": ["-y", "@fukayatti/arc-devtools-mcp"]
     }
   }
 }
 ```
+
+Or run via docker:
+
+```bash
+npx -y @fukayatti/arc-devtools-mcp
+```
+
+### Manual Configuration (Local Build)
+
+If you built it locally:
 
 ### Running Arc with Remote Debugging
 
