@@ -22,6 +22,7 @@ let browser: Browser | undefined;
 function makeTargetFilter() {
   const ignoredPrefixes = new Set([
     'chrome://',
+    'arc://',
     'chrome-extension://',
     'chrome-untrusted://',
   ]);
@@ -31,7 +32,10 @@ function makeTargetFilter() {
       return true;
     }
     // Could be the only page opened in the browser.
-    if (target.url().startsWith('chrome://inspect')) {
+    if (
+      target.url().startsWith('chrome://inspect') ||
+      target.url().startsWith('arc://inspect')
+    ) {
       return true;
     }
     for (const prefix of ignoredPrefixes) {
@@ -120,7 +124,7 @@ export async function ensureBrowserConnected(options: {
     browser = await puppeteer.connect(connectOptions);
   } catch (err) {
     throw new Error(
-      'Could not connect to Chrome. Check if Chrome is running and remote debugging is enabled by going to chrome://inspect/#remote-debugging.',
+      'Could not connect to Chrome/Arc. Check if the browser is running and remote debugging is enabled by going to arc://inspect/#remote-debugging (or chrome://inspect).',
       {
         cause: err,
       },

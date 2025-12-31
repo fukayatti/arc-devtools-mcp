@@ -5,13 +5,13 @@
  */
 
 import type {YargsOptions} from './third_party/index.js';
-import {yargs, hideBin} from './third_party/index.js';
+import {hideBin, yargs} from './third_party/index.js';
 
 export const cliOptions = {
   autoConnect: {
     type: 'boolean',
     description:
-      'If specified, automatically connects to a browser (Chrome 145+) running in the user data directory identified by the channel param. Requires remote debugging being enabled in Chrome here: chrome://inspect/#remote-debugging.',
+      'If specified, automatically connects to a browser (Chrome 145+) running in the user data directory identified by the channel param. Requires remote debugging being enabled in the browser here: arc://inspect/#remote-debugging (or chrome://inspect).',
     conflicts: ['isolated', 'executablePath'],
     default: false,
     coerce: (value: boolean | undefined) => {
