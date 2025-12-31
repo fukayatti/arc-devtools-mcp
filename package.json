@@ -2,6 +2,7 @@
   "name": "@fukayatti0/arc-devtools-mcp",
   "version": "1.0.0",
   "description": "MCP server for Chrome DevTools",
+  "private": false,
   "type": "module",
   "bin": "./build/src/index.js",
   "main": "index.js",
