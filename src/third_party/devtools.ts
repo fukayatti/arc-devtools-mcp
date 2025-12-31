@@ -4,28 +4,28 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-export type {
-  IssuesManagerEventTypes,
-  CDPConnection,
-} from '../../node_modules/chrome-devtools-frontend/mcp/mcp.js';
 export {
   AgentFocus,
-  TraceEngine,
-  PerformanceTraceFormatter,
-  PerformanceInsightFormatter,
   AggregatedIssue,
-  Issue,
-  Target as SDKTarget,
+  Common,
   DebuggerModel,
   Foundation,
-  TargetManager,
-  MarkdownIssueDescription,
-  Marked,
-  ProtocolClient,
-  Common,
   I18n,
+  Issue,
+  IssueAggregator,
   IssueAggregatorEvents,
   IssuesManagerEvents,
+  MarkdownIssueDescription,
+  Marked,
+  PerformanceInsightFormatter,
+  PerformanceTraceFormatter,
+  ProtocolClient,
+  Target as SDKTarget,
+  TargetManager,
+  TraceEngine,
   createIssuesFromProtocolIssue,
-  IssueAggregator,
-} from '../../node_modules/chrome-devtools-frontend/mcp/mcp.js';
+} from 'chrome-devtools-frontend/mcp/mcp.js';
+export type {
+  CDPConnection,
+  IssuesManagerEventTypes,
+} from 'chrome-devtools-frontend/mcp/mcp.js';
