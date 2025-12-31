@@ -1,6 +1,6 @@
 {
   "name": "arc-devtools-mcp",
-  "version": "0.12.1",
+  "version": "1.0.0",
   "description": "MCP server for Chrome DevTools",
   "type": "module",
   "bin": "./build/src/index.js",
@@ -31,14 +31,14 @@
     "LICENSE",
     "!*.tsbuildinfo"
   ],
-  "repository": "ChromeDevTools/chrome-devtools-mcp",
-  "author": "Google LLC",
+  "repository": "fukayatti/arc-devtools-mcp",
+  "author": "fukayatti",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues"
+    "url": "https://github.com/fukayatti/arc-devtools-mcp/issues"
   },
-  "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp#readme",
-  "mcpName": "io.github.ChromeDevTools/chrome-devtools-mcp",
+  "homepage": "https://github.com/fukayatti/arc-devtools-mcp#readme",
+  "mcpName": "io.github.fukayatti/arc-devtools-mcp",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "@modelcontextprotocol/sdk": "1.24.3",
