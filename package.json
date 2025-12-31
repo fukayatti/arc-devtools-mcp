@@ -1,6 +1,6 @@
 {
   "name": "@fukayatti0/arc-devtools-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Chrome DevTools",
   "type": "module",
   "bin": "./build/src/index.js",
@@ -61,6 +61,7 @@
     "@modelcontextprotocol/sdk": "1.24.3",
     "@puppeteer/browsers": "^2.11.0",
     "core-js": "3.47.0",
+    "chrome-devtools-frontend": "1.0.1555430",
     "debug": "4.4.3",
     "puppeteer-core": "24.33.0",
     "yargs": "18.0.0",
