@@ -26,7 +26,7 @@ This allows AI assistants like Claude, Cursor, and Gemini to control Arc without
 1.  Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/arc-devtools-mcp.git
+    git clone https://github.com/fukayatti/arc-devtools-mcp.git
     cd arc-devtools-mcp
     ```
 
